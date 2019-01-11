@@ -32,7 +32,7 @@ h1 {
 h2 {
     font-size: 30px;
     font-weight: 500;
-    color: var(--main-black);
+    color: var(--main-blue);
 }
 p {
     font-size: 17px;
@@ -117,7 +117,7 @@ nav a {
     float: right;
 }
 .skill-box {
-    background-color: white;
+    background-color: var(--main-black);
     margin: 30px 0;
     text-align: center;
     width: 390px;
