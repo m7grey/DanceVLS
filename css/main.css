@@ -14,10 +14,11 @@
     --main-gray: #8A8CA5;
     --light-gray: #E7E7E8;
     --main-blue: #4CF7E5;
+    --main-testo: #09252a;
 }
 html {
     font-family: Avenir, sans-serif;
-    background-color: var(--main-gray);
+    background-color: var(--main-testo);
 }
 html,body {
     width: 100%;
@@ -69,7 +70,7 @@ nav {
 }
 nav a {
     font-weight: 500;
-    color: var(--main-black);
+    color: var(--main-gray);
 }
 .nav-right {
     position: fixed;
