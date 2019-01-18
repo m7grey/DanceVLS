@@ -363,7 +363,9 @@ footer > p, .social > a {
         /*justify-content: space-between;*/
     /*}*/
 
-
+    .skill-box{
+        width: 340px;
+    }
 
     footer {
         display: flex;
@@ -396,6 +398,9 @@ footer > p, .social > a {
     }
     nav a {
         font-size: 14px;
+    }
+    .skill-box{
+        width: 300px;
     }
 
 
