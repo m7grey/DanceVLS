@@ -98,12 +98,12 @@ nav a {
 }
 
 .nav-right a:first-child {
-    color: var(--main-white);
+    color: var(--main-blue);
     margin-right: 60px;
 }
 
 .rec {
-    background-color: var(--main-blue);
+    background-color: var(--main-white);
     display: inline-block;
     width: 7px;
     height: 14px;
