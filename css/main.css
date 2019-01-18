@@ -110,12 +110,19 @@ nav a {
     margin-right: 3px;
 }
 
+.logo{
+    color: var(--main-blue);
+    font-size: 16px;
+}
+
 /*
  * ─── CONTENT ────────────────────────────────────────────────────────────────────
  */
 .landing, .section2 {
     margin-top: 250px;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .left {
@@ -344,14 +351,19 @@ footer > p, .social > a {
 
 @media (min-width: 481px) and (max-width: 767px) {
 
-    .nav-right {
-        display: grid;
-        justify-content: space-evenly;
+    .logo{
+        font-size: 14px;
     }
+    nav a {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    /*.nav-right {*/
+        /*display: grid;*/
+        /*justify-content: space-between;*/
+    /*}*/
 
-    .nav-right a:first-child {
-        margin-right: 10px;
-    }
+
 
     footer {
         display: flex;
@@ -373,10 +385,20 @@ footer > p, .social > a {
 
 @media (min-width: 320px) and (max-width: 480px) {
 
+    .logo{
+        font-size: 14px;
+    }
+
     .nav-right {
+        right: -5%;
         display: grid;
         justify-content: flex-end;
     }
+    nav a {
+        font-size: 14px;
+    }
+
+
 
 
 }
