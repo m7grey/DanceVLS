@@ -9,6 +9,7 @@
     outline: 0;
     vertical-align: baseline;
 }
+
 :root {
     --main-black: #1F202B;
     --main-gray: #8A8CA5;
@@ -17,48 +18,59 @@
     --main-blue: #4CF7E5;
     --main-testo: #09252a;
 }
+
 html {
     font-family: Avenir, sans-serif;
     background-color: var(--main-testo);
 }
-html,body {
+
+html, body {
     width: 100%;
     height: 100%;
 }
+
 h1 {
     font-size: 50px;
     font-weight: 900;
     color: var(--main-black);
 }
+
 h2 {
     font-size: 30px;
     font-weight: 500;
     color: var(--main-blue);
 }
+
 p {
     font-size: 17px;
     color: var(--main-gray);
 }
+
 a {
     font-size: 17px;
     color: var(--main-gray);
     text-decoration: none;
 }
+
 .wrapper-content {
     width: 70%;
     margin: 0 auto;
 }
+
 .white {
     color: white;
 }
+
 .r {
     text-align: right;
     margin-right: 300px;
     margin-bottom: 530px;
 }
+
 .l {
     padding-left: 200px;
 }
+
 /*
  * ─── NAV ────────────────────────────────────────────────────────────────────────
  */
@@ -69,22 +81,27 @@ nav {
     line-height: 50px;
     width: 100%;
 }
+
 nav a {
     font-weight: 500;
     color: var(--main-gray);
 }
+
 .nav-right {
     position: fixed;
     right: 5%;
     top: 50px;
 }
+
 .nav-right a > img {
     vertical-align: text-bottom;
 }
+
 .nav-right a:first-child {
     color: var(--main-blue);
     margin-right: 60px;
 }
+
 .rec {
     background-color: var(--main-blue);
     display: inline-block;
@@ -92,6 +109,7 @@ nav a {
     height: 14px;
     margin-right: 3px;
 }
+
 /*
  * ─── CONTENT ────────────────────────────────────────────────────────────────────
  */
@@ -99,24 +117,30 @@ nav a {
     margin-top: 250px;
     display: flex;
 }
+
 .left {
     flex: 1;
     margin-top: 130px;
     position: relative;
 }
+
 .right {
     flex: 1;
     position: relative;
 }
+
 .right p {
     max-width: 500px;
 }
+
 .left p {
     max-width: 500px;
 }
+
 .skills {
     float: right;
 }
+
 .skill-box {
     background-color: var(--main-black);
     margin: 30px 0;
@@ -127,10 +151,11 @@ nav a {
     /*-webkit-box-shadow: 0 5px 20px 0 rgba(75,79,124,0.1);*/
     /*-moz-box-shadow: 0 5px 20px 0 rgba(75,79,124,0.1);*/
     /*box-shadow: 0 5px 20px 0 rgba(75,79,124,0.1);*/
-    -webkit-box-shadow: 3px 11px 44px -13px rgba(76,247,229,0.35);
-    -moz-box-shadow: 3px 11px 44px -13px rgba(76,247,229,0.35);
-    box-shadow: 3px 11px 44px -13px rgba(76,247,229,0.35);
+    -webkit-box-shadow: 3px 11px 44px -13px rgba(76, 247, 229, 0.35);
+    -moz-box-shadow: 3px 11px 44px -13px rgba(76, 247, 229, 0.35);
+    box-shadow: 3px 11px 44px -13px rgba(76, 247, 229, 0.35);
 }
+
 .rec-large {
     background-color: var(--main-blue);
     height: 150px;
@@ -140,6 +165,7 @@ nav a {
     left: -80px;
     z-index: -1;
 }
+
 .line {
     height: 5px;
     width: 120px;
@@ -148,6 +174,7 @@ nav a {
     top: 30px;
     left: -140px;
 }
+
 .line2 {
     height: 5px;
     width: 120px;
@@ -156,9 +183,11 @@ nav a {
     top: 30px;
     left: 60px;
 }
+
 .section2 {
     margin-top: 700px;
 }
+
 .rec-large-2 {
     background-color: var(--main-blue);
     /*opacity: 0.95;*/
@@ -169,11 +198,13 @@ nav a {
     left: -472px;
     z-index: -1;
 }
+
 .arrow {
     position: absolute;
     right: 5px;
     top: -140px;
 }
+
 /*
  * ─── BACKGROUND LINES ───────────────────────────────────────────────────────────
  */
@@ -190,30 +221,37 @@ nav a {
     -webkit-transform: translateX(-50%);
     z-index: -2;
 }
+
 .right-line-1 {
     transform: translateX(300px);
     -webkit-transform: translateX(300px);
 }
+
 .right-line-2 {
     transform: translateX(600px);
     -webkit-transform: translateX(600px);
 }
+
 .right-line-3 {
     transform: translateX(900px);
     -webkit-transform: translateX(900px);
 }
+
 .left-line-1 {
     transform: translateX(-300px);
     -webkit-transform: translateX(-300px);
 }
+
 .left-line-2 {
     transform: translateX(-600px);
     -webkit-transform: translateX(-600px);
 }
+
 .left-line-3 {
     transform: translateX(-900px);
     -webkit-transform: translateX(-900px);
 }
+
 /*
  * ─── FOOTER ─────────────────────────────────────────────────────────────────────
  */
@@ -222,20 +260,38 @@ footer {
     bottom: 50px;
     right: 5%;
 }
+
 .social {
     position: fixed;
     left: 5%;
 }
+
 .social > a {
     margin-right: 60px;
 }
+
 footer > p, .social > a {
     font-weight: 500;
 }
+
 /*
  * ─── MOTION ─────────────────────────────────────────────────────────────────────
  */
+.delay-1 {
+    animation-delay: 0.1s;
+}
 
+.delay-2 {
+    animation-delay: 0.3s;
+}
+
+.delay-3 {
+    animation-delay: 0.5s;
+}
+
+.delay-4{
+    animation-delay: 0.7s;
+}
 
 /*
  * ─── MEDIAQUERY ─────────────────────────────────────────────────────────────────────
@@ -259,7 +315,6 @@ footer > p, .social > a {
 @media (min-width: 1025px) and (max-width: 1280px) {
 
 
-
 }
 
 /*
@@ -268,7 +323,6 @@ footer > p, .social > a {
 */
 
 @media (min-width: 768px) and (max-width: 1024px) {
-
 
 
 }
@@ -281,7 +335,6 @@ footer > p, .social > a {
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
 
 
-
 }
 
 /*
@@ -291,11 +344,16 @@ footer > p, .social > a {
 
 @media (min-width: 481px) and (max-width: 767px) {
 
-    .nav-right{
+    .nav-right {
         display: grid;
         justify-content: space-evenly;
     }
-    footer{
+
+    .nav-right a:first-child {
+        margin-right: 10px;
+    }
+
+    footer {
         display: flex;
         flex-wrap: wrap;
     }
@@ -315,7 +373,7 @@ footer > p, .social > a {
 
 @media (min-width: 320px) and (max-width: 480px) {
 
-    .nav-right{
+    .nav-right {
         display: grid;
         justify-content: flex-end;
     }
