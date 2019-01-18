@@ -98,7 +98,7 @@ nav a {
 }
 
 .nav-right a:first-child {
-    color: var(--main-blue);
+    color: var(--main-white);
     margin-right: 60px;
 }
 
