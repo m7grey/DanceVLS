@@ -151,7 +151,7 @@ nav a {
 .line2 {
     height: 5px;
     width: 120px;
-    background-color: var(--main-black);
+    background-color: var(--main-white);
     position: absolute;
     top: 30px;
     left: 60px;
